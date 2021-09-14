@@ -1,10 +1,12 @@
 const BASE_URL = "http://localhost:3000/cities"
+const cityContainer = document.getElementById("city-container")
 
 fetch(BASE_URL)
 .then(resp => resp.json())
 .then(function(cityData){
     cityData.forEach((cities) => renderCities(cities));
     })
+
 
 function renderCities(cities){
     const citiesDiv = document.createElement('div')
@@ -30,7 +32,9 @@ function renderCities(cities){
         cityRating.innerText = "Vote: " + cities.rating
     })
 
-citiesDiv.append(cityName, cityImg, cityRating, voteBttn)
-    
+
+
+citiesDiv.append(citiesName, cityImg, cityPop, cityRating, voteBttn)
+cityContainer.append(citiesDiv)
 
 }
