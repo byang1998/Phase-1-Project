@@ -1,0 +1,39 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "New York City",
+      "state": "New York",
+      "img": "https://media.architecturaldigest.com/photos/5da74823d599ec0008227ea8/16:9/w_2560%2Cc_limit/GettyImages-946087016.jpg",
+      "population": "8.419 million"
+    },
+    {
+      "id": 2,
+      "name": "Chicago",
+      "state": "Illinois",
+      "img": "https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1584970973/rvful86nccn7ub0asaw6.jpg",
+      "population": "2.71 million"
+    },
+    {
+      "id": 3,
+      "name": "Seattle",
+      "state": "Washington",
+      "img": "https://s.hdnux.com/photos/01/20/14/32/21022339/3/1200x0.jpg",
+      "population": "724,305"
+    },
+    {
+      "id": 4,
+      "name": "Houston",
+      "state": "Texas",
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.houston.org%2F&psig=AOvVaw3SS98p-X-iZYEHpC1td-K3&ust=1631719077155000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjYybLh_vICFQAAAAAdAAAAABAD",
+      "population": "2.31 million"
+    },
+    {
+      "id": 5,
+      "name": "Los Angeles",
+      "state": "California",
+      "img": "https://deadline.com/wp-content/uploads/2021/03/AdobeStock_90015597.jpeg?crop=3423px%2C509px%2C4952px%2C2772px&resize=681%2C383",
+      "population": "3.967 million"
+    }
+  ]
+}
