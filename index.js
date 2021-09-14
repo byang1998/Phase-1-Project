@@ -5,6 +5,7 @@ fetch(BASE_URL)
 .then(function(cityData){
     cityData.forEach((cities) => renderCities(cities));
     })
+    
 function renderCities(cities){
     const cityImg = document.createElement("img");
     cityImg.src = cities.img;
