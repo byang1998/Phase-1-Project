@@ -34,6 +34,22 @@
       "state": "California",
       "img": "https://deadline.com/wp-content/uploads/2021/03/AdobeStock_90015597.jpeg?crop=3423px%2C509px%2C4952px%2C2772px&resize=681%2C383",
       "population": "3.967 million"
+    },
+    {
+      "id": 6,
+      "name": "Austin",
+      "state": "Texas",
+      "img": "https://res.cloudinary.com/culturemap-com/image/upload/ar_4:3,c_fill,g_faces:center,w_980/v1527171596/photos/275707_original.jpg",
+      "population": "950,807"
+    },
+    {
+      "id": 7,
+      "name": "Miami",
+      "state": "Florida",
+      "img": "https://i.natgeofe.com/n/5de6e34a-d550-4358-b7ef-4d79a09c680e/aerial-beach-miami-florida.jpg",
+      "population": "454,279"
+
     }
+  
   ]
 }
