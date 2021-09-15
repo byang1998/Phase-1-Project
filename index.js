@@ -40,9 +40,7 @@ function renderCities(cities){
 
 //     function deleteCity(cities, card) {
 //   card.remove();
-//   fetch(`${BASE_URL}/${pokemon.id}`, {
-//     method: 'DELETE'
-//   })
+//     }
 
 
 
