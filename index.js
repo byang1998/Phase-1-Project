@@ -60,9 +60,10 @@ function submitHandler(e){
 
 const newCity = {
     name: e.target["name"].value,
+    image: e.target["image"].value,
     population: e.target["population"].value,
     state: e.target["state"].value,
-    image: e.target["image"].value,
+    rating: +e.target["rating"].value,
 }
 
 renderCities(newCity)
