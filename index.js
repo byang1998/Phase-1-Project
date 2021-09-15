@@ -44,6 +44,9 @@ function renderCities(cities){
 
 function deleteCity(card){
     citiesDiv.remove()
+    fetch(`${BASE_URL}/${cities.id}`, {
+    method: 'DELETE'
+  })
     }
 
 
@@ -65,6 +68,16 @@ const newCity = {
     state: e.target["state"].value,
     rating: +e.target["rating"].value,
 }
+
+fetch(BASE_URL, {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'applications/json'
+    },
+    body: JSON.stringify(newCity)
+})
+.then(resp => resp.json())
+.then(data => console.log(data))
 
 renderCities(newCity)
 e.target.reset()
