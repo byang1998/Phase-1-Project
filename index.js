@@ -62,11 +62,11 @@ function submitHandler(e){
     e.preventDefault()
 
 const newCity = {
-    name: e.target["name"].value,
-    image: e.target["image"].value,
-    population: e.target["population"].value,
-    state: e.target["state"].value,
-    rating: +e.target["rating"].value,
+    name: e.target['name-input'].value,
+    image: e.target['image-input'].value,
+    population: e.target['population-input'].value,
+    state: e.target['state-input'].value,
+    rating: +e.target['new-rating'].value,
 }
 
 fetch(BASE_URL, {
