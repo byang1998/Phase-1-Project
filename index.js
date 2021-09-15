@@ -79,6 +79,17 @@ fetch(BASE_URL, {
 .then(resp => resp.json())
 .then(data => renderCities(data))
 
+fetch(BASE_URL, {
+    method: 'PATCH',
+    headers: {
+        'Content-Type' : 'applications/json'
+    },
+    body: JSON.stringify(newCity)
+})
+.then(resp => resp.json())
+.then(data => renderCities(data))
+
+
 renderCities(newCity)
 e.target.reset()
 }
