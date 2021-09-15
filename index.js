@@ -11,6 +11,7 @@ fetch(BASE_URL)
 function renderCities(cities){
     const citiesDiv = document.createElement('div')
     citiesDiv.className = "card"
+    
 
     const citiesName = document.createElement('h3')
     citiesName.innerText = cities.name
@@ -31,20 +32,20 @@ function renderCities(cities){
         cities.rating++
         cityRating.innerText = "Rating: " + cities.rating
 
-        // const deleteBttn = document.createElement("button");
-        // deleteBttn.className = "delete-bttn";
-        // deleteBttn.textContent = "Delete"
-        // deleteBttn.addEventListener('click', () => deleteCity(cities, card));
-
     })
+    const deleteBttn = document.createElement("button");
+        deleteBttn.className = "delete-bttn";
+        deleteBttn.textContent = "Delete"
+        deleteBttn.addEventListener('click', () => deleteCity());
 
-//     function deleteCity(cities, card) {
-//   card.remove();
-//     }
+function deleteCity(card){
+    citiesDiv.remove()
+    
+    console.log(citiesDiv)
+}
 
 
-
-citiesDiv.append(citiesName, cityImg, cityPop, cityRating, voteBttn)
+citiesDiv.append(citiesName, cityImg, cityPop, cityRating, voteBttn, deleteBttn)
 cityContainer.append(citiesDiv)
 
 }
