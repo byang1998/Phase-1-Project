@@ -20,7 +20,7 @@ function renderCities(cities){
     cityImg.alt = `${cities.name} image`;
 
     const cityPop = document.createElement('h4')
-    cityPop.innerText = cities.population
+    cityPop.innerText = "Population: " + cities.population
 
     const cityRating = document.createElement('p')
     cityRating.innerText = "Rating: " + cities.rating
@@ -29,7 +29,12 @@ function renderCities(cities){
     voteBttn.innerText = "Vote"
     voteBttn.addEventListener('click', () => {
         cities.rating++
-        cityRating.innerText = "Vote: " + cities.rating
+        cityRating.innerText = "Rating: " + cities.rating
+
+        // const deleteBttn = document.createElement("button");
+        // deleteBttn.className = "delete-bttn";
+        // deleteBttn.textContent = "Delete"
+        // deleteBttn.addEventListener('click', () => deleteCity(cities, card));
     })
 
 
