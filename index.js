@@ -63,7 +63,7 @@ function submitHandler(e){
 
 const newCity = {
     name: e.target['name-input'].value,
-    image: e.target['image-input'].value,
+    img: e.target['image-input'].value,
     population: e.target['population-input'].value,
     state: e.target['state-input'].value,
     rating: +e.target['new-rating'].value,
@@ -72,24 +72,12 @@ const newCity = {
 fetch(BASE_URL, {
     method: 'POST',
     headers: {
-        'Content-Type': 'applications/json'
+        'Content-Type': 'application/json'
     },
     body: JSON.stringify(newCity)
 })
 .then(resp => resp.json())
 .then(data => renderCities(data))
 
-fetch(BASE_URL, {
-    method: 'PATCH',
-    headers: {
-        'Content-Type' : 'applications/json'
-    },
-    body: JSON.stringify(newCity)
-})
-.then(resp => resp.json())
-.then(data => renderCities(data))
-
-
-renderCities(newCity)
 e.target.reset()
 }
