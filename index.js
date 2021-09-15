@@ -35,7 +35,14 @@ function renderCities(cities){
         // deleteBttn.className = "delete-bttn";
         // deleteBttn.textContent = "Delete"
         // deleteBttn.addEventListener('click', () => deleteCity(cities, card));
+
     })
+
+//     function deleteCity(cities, card) {
+//   card.remove();
+//   fetch(`${BASE_URL}/${pokemon.id}`, {
+//     method: 'DELETE'
+//   })
 
 
 
