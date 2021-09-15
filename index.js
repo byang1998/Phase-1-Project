@@ -63,7 +63,6 @@ const newCity = {
     population: e.target["population"].value,
     image: e.target["image"].value,
     state: e.target["state"].value,
-    rating: +e.target["rating"].value,
 }
 
 renderCities(newCity)
