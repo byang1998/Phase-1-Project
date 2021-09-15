@@ -61,8 +61,8 @@ function submitHandler(e){
 const newCity = {
     name: e.target["name"].value,
     population: e.target["population"].value,
-    image: e.target["image"].value,
     state: e.target["state"].value,
+    image: e.target["image"].value,
 }
 
 renderCities(newCity)
