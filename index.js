@@ -44,7 +44,7 @@ function renderCities(cities){
 
 function deleteCity(card){
     citiesDiv.remove()
-    fetch(`${BASE_URL}/${cities.id}`, {
+    fetch(BASE_URL + `/${cities.id}`, {
     method: 'DELETE'
   })
     }
@@ -77,7 +77,7 @@ fetch(BASE_URL, {
     body: JSON.stringify(newCity)
 })
 .then(resp => resp.json())
-.then(data => console.log(data))
+.then(data => renderCities(data))
 
 renderCities(newCity)
 e.target.reset()
