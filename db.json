@@ -41,14 +41,6 @@
       "rating": 0
     },
     {
-      "id": 6,
-      "name": "Austin",
-      "state": "Texas",
-      "img": "https://res.cloudinary.com/culturemap-com/image/upload/ar_4:3,c_fill,g_faces:center,w_980/v1527171596/photos/275707_original.jpg",
-      "population": "950,807",
-      "rating": 0
-    },
-    {
       "id": 7,
       "name": "Miami",
       "state": "Florida",
