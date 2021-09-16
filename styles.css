@@ -1,3 +1,42 @@
-img {
-    width: 300px;
-}
+#header {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  #header-img {
+    height: 175px;
+    width: 550px;
+  }
+
+  #cities-form-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .like-bttn {
+    color: blue;
+    font-size: larger;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .like-bttn:hover {
+    color: white;
+    background-color: blue;
+  }
+  
+  .delete-bttn {
+    color: red;
+    font-size: large;
+  }
+  
+  .delete-bttn:hover {
+    background-color: pink;
+  }
