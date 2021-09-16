@@ -31,6 +31,7 @@ function renderCities(cities){
 
 
     const voteBttn = document.createElement('button')
+    voteBttn.className = "vote-bttn"
     voteBttn.innerText = "Vote"
     voteBttn.addEventListener('click', () => {
         cities.rating++
