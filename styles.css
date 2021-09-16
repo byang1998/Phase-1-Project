@@ -1,16 +1,10 @@
-body {background-color: paleturquoise;}
-
-img {
-    width: 500px;
-}
-
 #header {
     text-align: center;
     margin: 0 auto;
   }
   img {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
   }
   #header-img {
     height: 175px;
@@ -37,4 +31,3 @@ img {
   .delete-bttn:hover {
     background-color: pink;
   }
-  
