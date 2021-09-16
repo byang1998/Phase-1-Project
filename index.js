@@ -57,6 +57,7 @@ cityContainer.append(citiesDiv)
 }
 
 const newCityForm = document.getElementById('cities-form')
+newCityForm.className = "newcity-form"
 newCityForm.addEventListener('submit', submitHandler)
 
 function submitHandler(e){
