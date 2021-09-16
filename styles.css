@@ -13,6 +13,7 @@ body {
   #header-img {
     height: 175px;
     width: 550px;
+    
   }
   #cities-form-container {
     margin-top: 25px;
@@ -34,4 +35,22 @@ body {
   }
   .delete-bttn:hover {
     background-color: pink;
+  }
+
+  .card {
+    margin: 30px;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+  }
+
+  .newcity-form {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    font-size:12px;
+    height:25px;
+
   }

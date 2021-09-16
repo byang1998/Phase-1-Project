@@ -1,14 +1,6 @@
 {
   "cities": [
     {
-      "id": 1,
-      "name": "New York City",
-      "state": "New York",
-      "img": "https://media.architecturaldigest.com/photos/5da74823d599ec0008227ea8/16:9/w_2560%2Cc_limit/GettyImages-946087016.jpg",
-      "population": "8.419 million",
-      "rating": 0
-    },
-    {
       "id": 2,
       "name": "Chicago",
       "state": "Illinois",
