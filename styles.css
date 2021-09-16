@@ -18,6 +18,22 @@ body {
   #cities-form-container {
     margin-top: 25px;
   }
+
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: red;
+  }
+
   .vote-bttn {
     color: blue;
     font-size: larger;
